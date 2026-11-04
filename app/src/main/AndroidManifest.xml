@@ -37,6 +37,8 @@
         android:theme="@style/Theme.H5Pack">
 
         <activity
+            android:hardwareAccelerated="true"
+            android:configChanges="orientation|screenSize|smallestScreenSize"
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
